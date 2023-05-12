@@ -33,9 +33,9 @@ li {
 	color:"rgb(99, 89, 89)";
 }  
 table {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100%;
+  	margin: 0 auto;
+  	width: 100%;
+  	max-width: 100%;
 }
 a {
 	font-family: courier new;
