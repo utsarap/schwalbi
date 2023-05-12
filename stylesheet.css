@@ -37,6 +37,10 @@ table {
   	width: 100%;
   	max-width: 100%;
 }
+table img {
+  max-width: 100%;
+  max-height: auto;
+}
 a {
 	font-family: courier new;
   	color:"rgb(59, 9, 9);
