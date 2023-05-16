@@ -1,77 +1,42 @@
-body {
+		body {
+			margin: 0;
+			padding: 0;
 			background-image: url("schwalbi/hintergrund.jpg");
 			background-repeat: no-repeat;
 			background-position: center;
 			background-size: cover;
 		}
 
-	.container {
+		h1 {
+			text-align: center;
+			font-family: "Courier New", Courier, monospace;
+			font-size: 36px;
+			text-shadow: 2px 2px 2px #000000;
+			color: white;
+			margin-top: 50px;
+		}
+
+		h2 {
+			text-align: center;
+			font-family: "Courier New", Courier, monospace;
+			font-size: 24px;
+			text-shadow: 1px 1px 1px #000000;
+			color: white;
+			margin-top: 20px;
+			animation: marquee 30s linear infinite;
+		}
+
+		@keyframes marquee {
+			0% { transform: translateX(100%); }
+			100% { transform: translateX(-100%); }
+		}
+
+		.container {
 			display: flex;
 			justify-content: center;
-}
-		
-.marquee {
-	width: 100%;
-	overflow: hidden;
-	animation: marquee 30s linear infinite;
-}
+			margin-top: 30px;
+		}
 
-@keyframes marquee {
-	0% { transform: translateX(100%); }
-	100% { transform: translateX(-100%); }
-	}
-h1 {
-	text-align: center;
-	font-family: courier new;
-	font-size: 36px
-	text-shadow: 3px 3px 3px #ababab;
-	text-color:"rgb(79, 69, 49)";
-	border:"rgb(79, 69, 49)";
-	padding: 30px;
-}
-h2 {
-	font-family: courier new;
-	text-shadow: 2px 2px 2px #ababab;
-	text-color:"rgb(89, 99, 89)";
-	border:"rgb(89, 99, 89)";
-	padding: 10px;
-}
-h3 {
-	font-family: courier new;
-	text-shadow: 1px 1px 1px #ababab;
-	text-color:"rgb(69, 59, 59)";
-	border:"rgb(69, 59, 59)";
-	padding: 10px;
-}
-p {
-	font-family: courier new;
-	text-shadow: 3px 3px 3px #ababab;
-	text-color:"rgb(109, 109, 89)";
-	text-align: center;
-	border:"rgb(109, 109, 89)";
-	padding: 10px;
-}
-li {
-	font-family: courier new;
-	color:"rgb(99, 89, 89)";
-}  
-table {
-  	margin: 0 auto;
-  	width: 100%;
-  	max-width: 100%;
-}
-table img {
-  max-width: 100%;
-  max-height: auto;
-}
-a {
-	font-family: courier new;
-  	color:"rgb(59, 9, 9);
-}
-
-.container {
-	background-image: url("pfad/zum/hintergrundbild.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
+		.container a {
+			margin: 0 10px;
+		}
