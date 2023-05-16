@@ -13,7 +13,7 @@ body {
 .marquee {
 	width: 100%;
 	overflow: hidden;
-	animation: marquee 10s linear infinite;
+	animation: marquee 30s linear infinite;
 }
 
 @keyframes marquee {
@@ -23,6 +23,7 @@ body {
 h1 {
 	text-align: center;
 	font-family: courier new;
+	font-size: 28px
 	text-shadow: 3px 3px 3px #ababab;
 	text-color:"rgb(79, 69, 49)";
 	border:"rgb(79, 69, 49)";
