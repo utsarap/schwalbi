@@ -14,11 +14,22 @@
 			display: flex;
 			justify-content: center;
 		}
+		
+		.marquee {
+			width: 100%;
+			overflow: hidden;
+			animation: marquee 10s linear infinite;
+		}
+
+		@keyframes marquee {
+			0% { transform: translateX(100%); }
+			100% { transform: translateX(-100%); }
+		}
 	</style>
 	<h1>schwalbi shop</h1>
 </head>
 <body>
-<p>schöne vintage & häkelware. garantiert modisch</p>
+	<div class="marquee"> <p>schöne vintage & häkelware. garantiert modisch</p> </div>
 <div class="container">
 	<a href="vintage.html"><img src="schwalbi/vintage.png" alt="vintage"></a>
 	<a href="handmade.html"><img src="schwalbi/handmade.png" alt="handmade"></a>
