@@ -68,3 +68,10 @@ a {
 	font-family: courier new;
   	color:"rgb(59, 9, 9);
 }
+
+.container {
+	background-image: url("pfad/zum/hintergrundbild.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
